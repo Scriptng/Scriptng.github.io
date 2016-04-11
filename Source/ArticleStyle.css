@@ -6,16 +6,16 @@ body{height:auto;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px
 header{height:50%;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:21;}
 main{background-color:rgb(60, 60, 65);height:auto;left:0px;position:relative;right:0px;top:0px;width:auto;z-index:21;}
 footer{background-color:rgb(60, 60, 65);height:auto;left:0px;position:relative;right:0px;top:0px;width:auto;z-index:21;}
-#parallax{background-image:url("https://Sriptng.github.io/Images/Logo.png");background-position:center 0px;background-repeat:no-repeat;background-size:100% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-20;}
+#parallax{background-image:url("https://Scriptng.github.io/Images/Logo.png");background-position:center 0px;background-repeat:no-repeat;background-size:100% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-20;}
 #cover{height:50%;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
 #intro{height:auto;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
 #paragraph{height:auto;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
 #closure{height:auto;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
-/*h1{background-color:rgb(40, 40, 45);color:rgb(255, 247, 245);font-family:"Arial", Sans-serif;font-size:30px;z-index:23;}
+h1{background-color:rgb(40, 40, 45);color:rgb(255, 247, 245);font-family:"Arial", Sans-serif;font-size:30px;z-index:23;}
 h2{color:rgb(255, 247, 245);font-family:"Arial", Sans-serif;font-size:20px;z-index:23;}
 p{color:rgb(255, 247, 245);font-family:"Arial", Sans-serif;font-size:15px;text-align:justify;z-index:23;}
 
-td{color:rgb(255, 237, 204);text-align:center;}
+/*td{color:rgb(255, 237, 204);text-align:center;}
 pre{height:auto;left:0px;overflow:auto;position:relative;right:0px;top:0px;width:auto;z-index:100;}
 hr{background-color:rgb(35, 49, 56);border:0px solid;height:3px;margin-top:0px;}
 #div-container{height:50px;margin:auto;position:relative;width:50px;z-index:25;}
