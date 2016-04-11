@@ -10,6 +10,14 @@
     scale = 100;
   }
   
+  $('header').css({
+    'height': (screen.height / 2) + 'px'
+  });
+  
+  $('#cover').css({
+    'height': (screen.height / 2) + 'px'
+  });
+  
   factor = 3;
 
   $(window).scrollTop(0);
