@@ -5,8 +5,8 @@ html{background-color:rgb(40, 40, 45);width:100%;z-index:0;}
 body{height:auto;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:20;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
 header{height:50%;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:21;}
 main{background-color:rgb(60, 60, 65);height:auto;left:0px;position:relative;right:0px;top:0px;width:auto;z-index:21;}
-footer{background-color:rgb(35, 49, 56);height:auto;left:0px;position:relative;right:0px;top:0px;width:auto;z-index:21;}
-#parallax{background-image:url("https://Sriptng.github.io/Images/Logo.png");background-position:center 0px;background-repeat:no-repeat;background-size:100% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-20;}
+footer{background-color:rgb(60, 60, 65);height:auto;left:0px;position:relative;right:0px;top:0px;width:auto;z-index:21;}
+#parallax{background-image:url("https://Sriptng.github.io/Images/Logo.png");background-position:center 0px;background-repeat:no-repeat;background-size:100% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-2;}
 #cover{height:50%;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
 #intro{height:auto;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
 #paragraph{height:auto;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
