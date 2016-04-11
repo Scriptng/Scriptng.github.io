@@ -14,10 +14,6 @@
     imgPerc = 100;
   }
   
-  $('header').css({
-    'height': headerHeight + 'px'
-  });
-  
   curScroll = 0;
   factor = 3;
 
@@ -27,23 +23,23 @@
     //Parallax
     if ($(window).scrollTop() >= 0) {
       imgPos = ($(window).scrollTop() / factor) * -1;
-      $('#background').css({
+      $('#parallax').css({
         'background-position': 'center ' + imgPos + 'px'
       });
     } else {
       imgSize = imgPerc - ($(window).scrollTop() / factor);
-      $('#background').css({
+      $('#parallax').css({
         'background-size': imgSize + '%'
       });
     }
-    //Hide image at bottom
-    if ($(window).scrollTop() > headerHeight + 100) {
-      $('#background-cover').css({
-        'display': 'block'
+    //Hide Image
+    if ($(window).scrollTop() > screen.height) {
+      $('#parallax').css({
+        'visibility': 'visible'
       });
-    } else if ($(window).scrollTop() < headerHeight + 100) {
-      $('#background-cover').css({
-        'display': 'none'
+    } else if ($(window).scrollTop() < screen.height) {
+      $('#parallax').css({
+        'visibility': 'hidden'
       });
     }
   });
