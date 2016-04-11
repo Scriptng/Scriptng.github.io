@@ -1,12 +1,19 @@
 /*------------------------------------------------------------------------------------*/
 /*------------------------------------All Devices-------------------------------------*/
 /*------------------------------------------------------------------------------------*/
-#background-cover{background-color:rgb(62, 69, 76);bottom:0px;display:none;height:auto;left:0px;position:fixed;right:0px;top:0px;width:auto;z-index:-1;}
 html{width:100%;z-index:0;}
-body{background-color:rgb(35, 49, 56);height:auto;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:20;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
-main{background-color:rgb(76, 100, 107);height:auto;left:0px;position:relative;right:0px;top:0px;width:auto;z-index:21;}
+body{background-color:rgb(40, 40, 45);height:auto;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:20;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
+header{height:50%;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:21;}
+main{background-color:rgb(60, 60, 65);height:auto;left:0px;position:relative;right:0px;top:0px;width:auto;z-index:21;}
 footer{background-color:rgb(35, 49, 56);height:auto;left:0px;position:relative;right:0px;top:0px;width:auto;z-index:21;}
-#title{color:rgb(255, 247, 245);font-family:"Arial", Sans-serif;font-size:25px;z-index:23;}
+#parallax{background-image:url("https://scriptkitti.github.io/Images/HomePage.png");background-position:center 0px;background-repeat:no-repeat;background-size:100% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-20;}
+#cover{height:50%;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
+#intro{height:auto;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
+#paragraph{height:auto;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
+#closure{height:auto;left:0px;margin:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
+h{color:rgb(255, 247, 245);font-family:"Arial", Sans-serif;font-size:25px;z-index:23;}
+p{color:rgb(255, 247, 245);font-family:"Arial", Sans-serif;font-size:20px;text-align:justify;z-index:23;}
+
 td{color:rgb(255, 237, 204);text-align:center;}
 pre{height:auto;left:0px;overflow:auto;position:relative;right:0px;top:0px;width:auto;z-index:100;}
 hr{background-color:rgb(35, 49, 56);border:0px solid;height:3px;margin-top:0px;}
@@ -19,8 +26,9 @@ hr{background-color:rgb(35, 49, 56);border:0px solid;height:3px;margin-top:0px;}
 /*--------------------------------------Desktop---------------------------------------*/
 /*------------------------------------------------------------------------------------*/
 @media all and (min-width: 1024px) {
-  #background{background-color:rgb(62, 69, 76);background-image:url("https://scriptkitti.github.io/Images/HomePage.png");background-position:center 0px;background-repeat:no-repeat;background-size:100% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-2;}
-  header{height:400px;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:21;}
+  #section{height:auto;left:20%;margin-bottom:10%;position:relative;right:20%;top:0px;width:60%;z-index:22;}
+  
+  
   #large-box{height:auto;left:0px;margin-bottom:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
   #little-box{height:auto;left:20%;margin-bottom:10px;position:relative;top:0px;width:60%;z-index:22;}
   #container{left:0px;position:relative;top:0px;width:100%;z-index:23;}
@@ -33,6 +41,9 @@ hr{background-color:rgb(35, 49, 56);border:0px solid;height:3px;margin-top:0px;}
 /*---------------------------------------Tablet---------------------------------------*/
 /*------------------------------------------------------------------------------------*/
 @media all and (min-width: 720px) and (max-width: 1023px) {
+  #section{height:auto;left:10%;margin-bottom:10%;position:relative;right:10%;top:0px;width:80%;z-index:22;}
+  
+  
   #background{background-color:rgb(62, 69, 76);background-image:url("https://scriptkitti.github.io/Images/HomePage.png");background-position:center 0px;background-repeat:no-repeat;background-size:120% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-2;}
   header{height:250px;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:21;}
   #large-box{height:auto;left:0px;margin-bottom:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
@@ -47,6 +58,9 @@ hr{background-color:rgb(35, 49, 56);border:0px solid;height:3px;margin-top:0px;}
 /*--------------------------------------Phablet---------------------------------------*/
 /*------------------------------------------------------------------------------------*/
 @media all and (min-width: 480px) and (max-width: 719px) {
+  #section{height:auto;left:5%;margin-bottom:5%;position:relative;right:5%;top:0px;width:90%;z-index:22;}
+  
+  
   #background{background-color:rgb(62, 69, 76);background-image:url("https://scriptkitti.github.io/Images/HomePage.png");background-position:center 0px;background-repeat:no-repeat;background-size:140% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-2;}
   header{height:250px;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:21;}
   #large-box{height:auto;left:0px;margin-bottom:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
@@ -61,6 +75,9 @@ hr{background-color:rgb(35, 49, 56);border:0px solid;height:3px;margin-top:0px;}
 /*---------------------------------------Mobile---------------------------------------*/
 /*------------------------------------------------------------------------------------*/
 @media all and (max-width: 479px) {
+  #section{height:auto;left:2%;margin-bottom:4%;position:relative;right:2%;top:0px;width:96%;z-index:22;}
+  
+  
   #background{background-color:rgb(62, 69, 76);background-image:url("https://scriptkitti.github.io/Images/HomePage.png");background-position:center 0px;background-repeat:no-repeat;background-size:170% auto;height:100%;left:0px;position:fixed;top:0px;width:100%;z-index:-2;}
   header{height:150px;left:0px;margin:0;padding:0;position:relative;right:0px;top:0px;width:auto;z-index:21;}
   #large-box{height:auto;left:0px;margin-bottom:0px;position:relative;right:0px;top:0px;width:100%;z-index:22;}
