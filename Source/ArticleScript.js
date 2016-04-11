@@ -30,11 +30,11 @@
     //Hide Image
     if ($(window).scrollTop() > screen.height) {
       $('#parallax').css({
-        'visibility': 'visible'
+        'visibility': 'hidden'
       });
     } else if ($(window).scrollTop() < screen.height) {
       $('#parallax').css({
-        'visibility': 'hidden'
+        'visibility': 'visible'
       });
     }
   });
